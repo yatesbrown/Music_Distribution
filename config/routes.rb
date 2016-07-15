@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :labels
+  resources :albums
   get 'site/search'
 
   resources :artists
